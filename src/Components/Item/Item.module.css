@@ -1,0 +1,26 @@
+.container{
+    display: flex;
+    width: 100%;
+    background-color: var(--gray-500);
+    border-radius: 0.5rem;
+    padding: 1rem;
+}
+
+.container input{
+    flex-grow: 1;
+}
+
+.container span{
+    flex-grow: 20;
+    margin-left: 1rem;
+    color: var(--white);
+}
+
+.container button{
+    background-color: transparent;
+    border : none;
+}
+
+.container svg{
+    flex-grow: 1;
+}

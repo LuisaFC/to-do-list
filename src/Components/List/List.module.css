@@ -1,0 +1,37 @@
+.container {
+    display: block;
+    width: 40rem;
+    margin: 0 auto;
+}
+
+.headerContainer{
+    display: flex;
+    justify-content: space-between;
+}
+
+.headerItemTitle{
+    margin-right: 0.5rem;
+}
+
+#task{
+    color: var(--blue);
+}
+
+#done{
+    color: var(--purple);
+}
+
+
+
+.mainContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3.5rem;
+}
+
+.mainContainer .emptyMain{
+    margin: 1rem 0 0.5rem;
+    font-weight: 600;
+}
+

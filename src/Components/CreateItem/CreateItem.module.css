@@ -1,0 +1,35 @@
+.container {
+    display: flex;
+    justify-content: center;
+    margin-top: calc(0px - 1.5rem - 6px);
+    margin-bottom: 7rem;
+}
+
+.inputContainer{
+    background-color: var(--gray-500);
+    width: 35rem;
+    padding: 1rem;
+    margin-right: 0.4rem;
+    border: 0;
+    border-radius: 0.5rem;
+    color: var(--white);
+}
+
+.buttonContainer{
+    display: flex;
+    background-color: var(--blue-dark);
+    color: var(--white);
+    border-radius: 0.5rem;
+    align-items: center;
+    justify-content: center;
+    padding: 0 1rem;
+}
+
+.buttonContainer button{
+    background-color: transparent;
+    border: 0;
+    font-weight: 700;
+    color: var(--white);
+    font-size: 0.87rem;
+    margin-right: 0.2rem;
+}

@@ -1,0 +1,20 @@
+.wrapper {
+    max-width: 70rem;
+    margin: 2rem auto;
+    padding: 0 1rem; /* espacamento lateral caso diminua a tela **/
+
+    display: grid;
+    grid-template-columns: 256px 1fr; /* first column(sidebar) = 256px, second column = flexive **/
+    gap: 2rem; /* espace between columns  **/
+    align-items: flex-start; /* align items to top - sidebar will not have the same height as main **/
+}
+
+@media(max-width: 768px) {
+    html{
+        font-size: 87.5%; /* 14px **/
+    }
+
+    .wrapper {
+        grid-template-columns: 1fr; /* only one column **/
+    }
+}
